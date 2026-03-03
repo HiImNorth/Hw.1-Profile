@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 42, 255, 1));
+}
+
+.Large {
+    margin-top: 125px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-bottom: 137px;
+}
+
+.Middle {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+#description {
+    display: block;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#info {
+    display: block;
+    gap: 5px;
+}
+
+#profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+    outline: 2px solid white;
+    outline-offset: 10px;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    display: block;
+    gap: 30px;
+}
+
+#vector {
+    background-image: url("Photo/Logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -2;
+    margin-bottom: 0px;
+}
+
+br {
+    gap: 50px;
+}
